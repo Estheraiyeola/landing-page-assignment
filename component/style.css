@@ -161,3 +161,82 @@ p.second-page{
     font-weight: 400;
     line-height: 20px;
 }
+#third-page{
+    display: flex;
+    padding: 20px 144px;
+    align-items: center;
+    justify-content: space-between;
+}
+#third-page-first-text{
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px;
+    color: var(--neutral-d-grey, #4D4D4D);
+
+}
+#third-page-second-text{
+    color: var(--neutral-d-grey, #4D4D4D);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px
+}
+#third-page button{
+    padding: 14px 32px;
+    color: var(--neutral-white, #FFF);
+    border-radius: 4px;
+    background: var(--brand-primary, #4CAF4F);
+}
+#achievement-page{
+    background: var(--neutral-silver, #F5F7FA);
+    display: flex;
+    padding: 64px 144px;
+    justify-content: space-between;
+    align-items: center;
+}
+#achievement-page-first-block, 
+#achievement-page-second-block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#achievement-first, 
+#achievement-second, 
+#achievement-third, 
+#achievement-fourth{
+    display: flex;
+
+}
+#achievement-first p, 
+#achievement-second p, 
+#achievement-third p, 
+#achievement-fourth p{
+    color: var(--neutral-d-grey, #4D4D4D);
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    margin: 0px 28px;
+
+}
+#achievement-first span, 
+#achievement-second span, 
+#achievement-third span, 
+#achievement-fourth span{
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 0px;
+}
+#achievement-page-first-block img, 
+#achievement-page-second-block img{
+    width: 48px;
+    height: 48px;
+}
+
