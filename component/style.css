@@ -165,7 +165,7 @@ p.second-page{
     display: flex;
     padding: 20px 144px;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 #third-page-first-text{
     font-family: Inter;
@@ -189,54 +189,189 @@ p.second-page{
     color: var(--neutral-white, #FFF);
     border-radius: 4px;
     background: var(--brand-primary, #4CAF4F);
+    border: 0px;
 }
+
 #achievement-page{
     background: var(--neutral-silver, #F5F7FA);
     display: flex;
     padding: 64px 144px;
+    align-items: flex-start;
     justify-content: space-between;
-    align-items: center;
-}
-#achievement-page-first-block, 
-#achievement-page-second-block{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    height: 160px;
+    margin-top: 48px;
+    margin-bottom: 48px;
+
 }
 #achievement-first, 
 #achievement-second, 
 #achievement-third, 
 #achievement-fourth{
     display: flex;
+    padding-right: 50px;
 
 }
-#achievement-first p, 
-#achievement-second p, 
-#achievement-third p, 
-#achievement-fourth p{
+#achievement-first .big-text, 
+#achievement-second .big-text, 
+#achievement-third .big-text, 
+#achievement-fourth .big-text{
     color: var(--neutral-d-grey, #4D4D4D);
     font-family: Inter;
     font-size: 28px;
     font-style: normal;
     font-weight: 700;
     line-height: 36px;
-    margin: 0px 28px;
-
+    margin: 0px;
 }
-#achievement-first span, 
-#achievement-second span, 
-#achievement-third span, 
-#achievement-fourth span{
+#achievement-first .small-text, 
+#achievement-second .small-text, 
+#achievement-third .small-text, 
+#achievement-fourth .small-text{
+    color: var(--neutral-grey, #717171);
     font-family: Inter;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
-    margin-top: 0px;
+    margin: 0px;
+
 }
 #achievement-page-first-block img, 
 #achievement-page-second-block img{
     width: 48px;
     height: 48px;
+    margin-right: 16px;
 }
+#achievement-first{
+    margin-right: 0px;
+}
+
+#achievement-third{
+    margin-right: 20px;
+}
+#achievement-page-first-block{
+    display: flex;
+    align-items: center; 
+    margin-bottom: 40px;
+}
+#achievement-page-second-block{
+    display: flex;
+    align-items: center; 
+}
+#achievement-page-text{
+    width: 540px;
+}
+#achievement-page-text-big{
+    color: var(--neutral-d-grey, #4D4D4D);
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px;
+}
+#achievement-page-text-small{
+    color: var(--text-gray-900, #18191F);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: -30px;
+}
+#achievement-page span{
+    color: var(--brand-primary, #4CAF4F);
+    width: 408px;
+}
+#unlock-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 48px;
+}
+#unlock-page img{
+    height: 433.39902px;
+    padding-right: 100px;
+}
+#unlock-page-text-big{
+    color: var(--neutral-d-grey, #4D4D4D);
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px;
+    margin-bottom: 16px;
+}
+#unlock-page-text-small{
+    color: var(--neutral-grey, #717171);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 0px;
+    margin-bottom: 32px;
+}
+#unlock-page-button{
+    padding: 14px 32px;
+    color: var(--neutral-white, #FFF);
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    border-radius: 4px;
+    background: var(--brand-primary, #4CAF4F);
+    border: 0px;
+}
+#customer-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+#customer-page-text{
+    width: 748px;
+}
+#customer-page-image{
+    margin-right: 78px;
+}
+#customer-page-small-text{
+    margin-top: 0px;
+    padding-top: 49px;
+    color: var(--neutral-grey, #717171);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+#customer-page-name{
+    margin-top: 0px;
+    color: var(--brand-primary, #4CAF4F);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+}
+#customer-page-description{
+    color: var(--neutral-l-grey, #89939E);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px
+}
+#customer-page-arrow{
+    display: flex;
+}
+#customer-page-icons{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
 
